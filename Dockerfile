@@ -20,7 +20,7 @@ RUN npm run build
 # WORKDIR /app
 # RUN cp /app ./
 
-EXPOSE 3000
+EXPOSE ${PORT}
 
 ARG NODE_ENV=prod 
 
